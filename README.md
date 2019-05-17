@@ -27,10 +27,13 @@ Relativ zur Grundtonposition der Tonleiter, dürfen folgende Töne (additiv zum 
 </p>
 
 Falls es hier noch nicht ganz klar ist, ein letztes Beispiel. Dazu schreibe ich die 12 Töne 2 Mal hintereinander. Darunter anschließend alle Treffer für die D-Dur Tonleiter.
-<br>0   1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23
-<br>C   C#  D   D#  E   F   F#  G   G#  A   A#  H   C   C#  D   D#  E   F   F#  G   G#  A   A#  H
-<br>        D       E       F#  G       A       H       C#
-<br>        2+0     2+2     2+4 2+5     2+7     2+9     2+11
+<table>
+  <tr><td>Index</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td></tr>
+  <tr><td>Alle Töne</td><td>C</td><td>C#</td><td>D</td><td>D#</td><td>E</td><td>F</td><td>F#</td><td>G</td><td>G#</td><td>A</td><td>A#</td><td>H</td><td>C</td><td>C#</td><td>D</td><td>D#</td><td>E</td><td>F</td><td>F#</td><td>G</td><td>G#</td><td>A</td><td>A#</td><td>H</td>
+  </tr>
+  <tr><td>Töne der Tonleiter</td><td></td><td></td><td>D</td><td></td><td>E</td><td></td><td>F#</td><td>G</td><td></td><td>A</td><td></td><td>H</td><td></td><td>C#</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>Rechnung</td><td></td><td></td><td>2+0</td><td></td><td>2+2</td><td></td><td>2+4</td><td>2+5</td><td></td><td>2+7</td><td></td><td>2+9</td><td></td><td>2+11</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table>
 
 ## Das bekommst du
 Für deine Funktion stehen dir zwei Listen zu Verfügung:
