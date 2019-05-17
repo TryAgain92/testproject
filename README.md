@@ -26,15 +26,23 @@ Relativ zur Grundtonposition der Tonleiter, dürfen folgende Töne (additiv zum 
     </ul>
 </p>
 
+Falls es hier noch nicht ganz klar ist, ein letztes Beispiel. Dazu schreibe ich die 12 Töne 2 Mal hintereinander. Darunter anschließend alle Treffer für die D-Dur Tonleiter.
+<br>0   1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23
+<br>C   C#  D   D#  E   F   F#  G   G#  A   A#  H   C   C#  D   D#  E   F   F#  G   G#  A   A#  H
+<br>        D       E       F#  G       A       H       C#
+<br>        2+0     2+2     2+4 2+5     2+7     2+9     2+11
+
 ## Das bekommst du
 Für deine Funktion stehen dir zwei Listen zu Verfügung:
-<br/>base = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'H']
+<br/>sounds = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'H']
 <br/>harmonic_dur_scale = [0,2,4,5,7,9,11]
 
 ## Das erwarte ich
 1. Eine Funktion die eine Liste der Tonleiter ausgibt. Die Funktion bekommt von außen die verwendeten 12 Töne, die Tonleiter und den Grundton als Buchstaben.
 2. Eine Textausgabe in folgender Form:
 'Harmonische Dur-Tonleiter mit dem Grundton GRUNDTON beinhaltet folgende Töne: TON1, TON2, TON3, .... '
+
+Um das nicht zu einfach zu machen: Es ist verboten die Liste der sounds zu verlängern wie ich es im Beispiel gemacht habe.
 
 # Funfacts
 Mit Ampermusic gibt es eine öffentlich zugängliche KI die komplette Kompositionen generiert. Folgender Song ist so entstanden:
